@@ -1,0 +1,29 @@
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+websockets>=14.1
+pydantic>=2.10.0
+python-dotenv>=1.0.1
+
+# Audio
+numpy>=2.1.0
+# yt-dlp>=2024.12.0      # Experimental mode
+# streamlink>=7.1.0       # Experimental mode
+
+# STT
+# faster-whisper>=1.1.0   # Primary STT engine
+# pywhispercpp>=1.2.0     # Fallback STT
+
+# VAD
+# silero-vad>=5.1.0       # Voice activity detection
+
+# Translation
+# libretranslate>=1.6.0   # Local translation server
+# argostranslate>=1.9.0   # Fallback translation
+
+# Utils
+torch>=2.5.0
+onnxruntime>=1.20.0
+structlog>=24.4.0
+psutil>=6.1.0
+GPUtil>=1.4.0

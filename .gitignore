@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+out/
+build/
+release/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+*.egg
+
+# Electron
+electron/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Models (large files, downloaded separately)
+resources/models/*.bin
+resources/models/*.pt
+resources/models/*.onnx
+!resources/models/.gitkeep
+
+# Python backend
+backend/__pycache__/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Electron-builder
+dist-electron/
+
+# Temp
+tmp/
+temp/
